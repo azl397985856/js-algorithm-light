@@ -1,10 +1,10 @@
-# js-algorithm-light
+# 💖 js-algorithm-light 💖
 
-## 定位
+## 定位 💺
 
 轻量级的 JavaScript 数据结构与算法库。
 
-## 为什么？
+## 为什么？:raising_hand:
 
 众所周知， JS 内置数据结构与算法的支持情况简直惨淡。大家如果真的要使用一些“高级”数据结构，要不自己实现，要么使用一些优秀的开源框架。这本身没有问题。但是：
 
@@ -24,7 +24,7 @@
 因此我开辟了这个仓库，暂定的目标是对标 **Python 所有的内置数据结构和算法**。
 
 
-## RoadMap
+## RoadMap :blue_book:
 
 目前实现了 heap, deque 和 binary_search 的主要 api。
 
