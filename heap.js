@@ -40,7 +40,6 @@ minHeap.prototype.pop = function() {
 minHeap.prototype.push = function(a) {
   this.h.push(a);
   this._shiftUp(this.h.length - 1);
-  console.log(this.h);
 };
 
 minHeap.prototype.heapify = function(A) {
