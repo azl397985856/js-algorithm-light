@@ -26,12 +26,12 @@
 
 ## RoadMap
 
-目前实现了 heap 和 deque 的主要 api。
+目前实现了 heap, deque 和 binary_search 的主要 api。
 
-|   | [heap](./heap.js)    | [deque](./deque.js)   | binary_search | sorted_list |
+|   | [heap](./heap.js)    | [deque](./deque.js)   | [binary_search](./binary_search.js) | sorted_list |
 |---|---------|---------|---------------|-------------|
-|   | pop     | popleft |               |             |
-|   | push    | append  |               |             |
+|   | pop     | popleft | bisect_left              |             |
+|   | push    | append  | bisect_right              |             |
 |   | heapify |         |               |             |
 
 > 点击表格中的链接可以直接定位到源码文件。
