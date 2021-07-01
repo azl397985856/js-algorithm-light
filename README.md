@@ -28,11 +28,11 @@
 
 目前实现了 heap 和 deque 的主要 api。
 
-|   | heap    | deque   |   |   |
-|---|---------|---------|---|---|
-|   | pop     | popleft |   |   |
-|   | push    | append  |   |   |
-|   | heapify |         |   |   |
+|   | heap    | deque   | binary_search | sorted_list |
+|---|---------|---------|---------------|-------------|
+|   | pop     | popleft |               |             |
+|   | push    | append  |               |             |
+|   | heapify |         |               |             |
 
 
 - [heap](./heap.js)
