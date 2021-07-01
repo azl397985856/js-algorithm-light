@@ -28,15 +28,13 @@
 
 目前实现了 heap 和 deque 的主要 api。
 
-|   | heap    | deque   | binary_search | sorted_list |
+|   | [heap](./heap.js)    | [deque](./deque.js)   | binary_search | sorted_list |
 |---|---------|---------|---------------|-------------|
 |   | pop     | popleft |               |             |
 |   | push    | append  |               |             |
 |   | heapify |         |               |             |
 
-
-- [heap](./heap.js)
-- [deque](./deque.js)
+> 点击表格中的链接可以直接定位到源码文件。
 
 [Try it online](https://gitpod.io/#https://github.com/azl397985856/js-algorithm-light) 
 
