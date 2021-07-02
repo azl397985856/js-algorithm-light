@@ -41,7 +41,7 @@ index_minPQ.prototype._greater = function(i, j) {
   return this.keys[this.pq[i]] - this.keys[this.pq[j]] > 0;
 }
 
-index_minPQ.prototype.insert = function(i, key) {
+index_minPQ.prototype.push = function(i, key) {
       this.n++;
       this.keys[i] = key;
       this.qp[i] = this.n;
@@ -55,7 +55,7 @@ index_minPQ.prototype.size = function() {
     }
 
   
-index_minPQ.prototype.delMin = function() {
+index_minPQ.prototype.pop = function() {
       let min = this.pq[1];
       this._swap(1, this.n--);
       this._sink(1);
@@ -82,18 +82,18 @@ index_minPQ.prototype.change = function(i, key) {
   
 // test:
 h = new index_minPQ();
-h.insert(0, 9.2);
-h.insert(1, 3.1);
-h.insert(2, 4.3);
-h.insert(3, 5.2);
-h.insert(4, 6.1);
+h.push(0, 9.2);
+h.push(1, 3.1);
+h.push(2, 4.3);
+h.push(3, 5.2);
+h.push(4, 6.1);
 console.log(h.pq); // the first element should be empty due to one-based indexing
 
 // qp shows the index corresponding to keys
 console.log(h.qp); 
 console.log(h.keys); 
 
-console.log("min index: " + h.delMin());  // expect 1 because it's key is 3.1, the smallest
+console.log("min index: " + h.pop());  // expect 1 because it's key is 3.1, the smallest
 
 h.change(0, 1.1) // index 0 should be the smallest index now
-console.log("min index: " + h.delMin());
+console.log("min index: " + h.pop());
