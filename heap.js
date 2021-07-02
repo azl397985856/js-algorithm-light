@@ -1,3 +1,9 @@
+/**
+If u'r not familar with heap, read https://leetcode-solution.cn/solutionDetail?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fazl397985856%2Fleetcode%2Fcontents%2Fthinkings%2Fheap.md&type=1 first
+
+This picture shows exactly how it works https://tva1.sinaimg.cn/large/0081Kckwly1gm185zwz93j30fu0nj0ud.jpg
+**/
+
 function minHeap(A = []) {
   this.heapify(A);
 }
