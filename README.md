@@ -28,11 +28,11 @@
 
 目前实现了 heap, deque 和 binary_search 的主要 api。
 
-| [heap](./heap.js)    | [deque](./deque.js)   | [binary_search](./binary_search.js) | sorted_list |
-|---------|---------|---------------|-------------|
-| [pop](https://github.com/azl397985856/js-algorithm-light/blob/master/heap.js#L31)     | [popleft](https://github.com/azl397985856/js-algorithm-light/blob/master/deque.js#L12) | [bisect_left](https://github.com/azl397985856/js-algorithm-light/blob/master/binary_search.js#L3)              |             |
-| [push](https://github.com/azl397985856/js-algorithm-light/blob/master/heap.js#L40)    | [append](https://github.com/azl397985856/js-algorithm-light/blob/master/deque.js#L6)  | [bisect_right](https://github.com/azl397985856/js-algorithm-light/blob/master/binary_search.js#L17)              |             |
-| [heapify](https://github.com/azl397985856/js-algorithm-light/blob/master/heap.js#L45) |         |               |             |
+| [heap](./heap.js)    | [deque](./deque.js)   | [binary_search](./binary_search.js) | sorted_list | [indexed_priority_queue.js](indexed_priority_queue.js) |
+|---------|---------|---------------|-------------|-------------|
+| [pop](https://github.com/azl397985856/js-algorithm-light/blob/master/heap.js#L31)     | [popleft](https://github.com/azl397985856/js-algorithm-light/blob/master/deque.js#L12) | [bisect_left](https://github.com/azl397985856/js-algorithm-light/blob/master/binary_search.js#L3)              |             |   [pop](https://github.com/azl397985856/js-algorithm-light/blob/master/indexed_priority_queue.js#L58) |
+| [push](https://github.com/azl397985856/js-algorithm-light/blob/master/heap.js#L40)    | [append](https://github.com/azl397985856/js-algorithm-light/blob/master/deque.js#L6)  | [bisect_right](https://github.com/azl397985856/js-algorithm-light/blob/master/binary_search.js#L17)              |            |  [push](https://github.com/azl397985856/js-algorithm-light/blob/master/indexed_priority_queue.js#L44)  |
+| [heapify](https://github.com/azl397985856/js-algorithm-light/blob/master/heap.js#L45) |         |               |             | [change](https://github.com/azl397985856/js-algorithm-light/blob/master/indexed_priority_queue.js#L75) |
 
 > 点击表格中的链接可以直接定位到源码文件。
 
