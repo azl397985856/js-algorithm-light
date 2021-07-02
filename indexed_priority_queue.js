@@ -1,3 +1,9 @@
+/**
+If u'r not familiar with `indexed_priority_queue`. u may need learn priority_queue fisrt, and then read  https://mkhoshpa.github.io/IndexedPQ/ first.
+
+This picture show exactly how it works. https://raw.githubusercontent.com/mkhoshpa/mkhoshpa.github.io/master/images/indexedminpq.png?style=centerme
+**/
+
 function index_minPQ() {
   this.pq = [];
   this.keys = [];
